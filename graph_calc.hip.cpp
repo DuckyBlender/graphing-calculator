@@ -18,7 +18,7 @@ const float BASE_LINE_WIDTH = 2.0f;
 const float BASE_AXIS_WIDTH = 1.5f;
 
 // Allowed supersampling factors (controls quality vs. performance)
-const std::vector<int> ALLOWED_SSAA_FACTORS = {1, 2, 4}; // 1=Off, 2=2x2, 4=4x4
+const std::vector<int> ALLOWED_SSAA_FACTORS = {1, 2, 4, 8, 16, 32}; // 1=Off, 2=2x, 4=4x, etc.
 
 // Colors (RGBA format, 0-255)
 const unsigned char BG_COLOR[4]   = { 20,  20,  40, 255 }; // Dark blue background
